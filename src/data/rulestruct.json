@@ -1,0 +1,878 @@
+[
+  {
+    "match": ".",
+    "condition": "true",
+    "id": 0,
+    "permissions": {
+      "list": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/emp",
+    "condition": "Employee role",
+    "id": 1,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/stu",
+    "condition": "Student role",
+    "id": 2,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/stu/*/[name]",
+    "condition": "[name] = user.name",
+    "id": 3,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/emp/aca/[name]",
+    "condition": "[name] = user.name",
+    "id": 4,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./sch/eng",
+    "condition": "Engineering role",
+    "id": 5,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./sch/eng",
+    "condition": "Eng_Coordinator role",
+    "id": 6,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./sch/bus",
+    "condition": "Bus_Coordinator role",
+    "id": 7,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./sch/bus",
+    "condition": "Business role",
+    "id": 8,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_emp",
+    "condition": "Employee role",
+    "id": 9,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_emp",
+    "condition": "Emp_Advisor role",
+    "id": 10,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_stu",
+    "condition": "Student role",
+    "id": 11,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_stu",
+    "condition": "Stu_Liaison role",
+    "id": 12,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/LIB_SYS",
+    "condition": "Employee role",
+    "id": 13,
+    "permissions": {
+      "list": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/LIB_SYS",
+    "condition": "Student role",
+    "id": 14,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/LIB_SYS",
+    "condition": "Lib_Admin role",
+    "id": 15,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/CANVAS",
+    "condition": "Student role",
+    "id": 16,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/CANVAS",
+    "condition": "Tutor role",
+    "id": 17,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/CANVAS",
+    "condition": "Coordinator role",
+    "id": 18,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": ".",
+    "condition": "IT_Admin role",
+    "id": 19,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/IT_TICKET",
+    "condition": "IT_Admin role",
+    "id": 20,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/IT_TICKET",
+    "condition": "Student role",
+    "id": 21,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_emp",
+    "condition": "HR_Assistant role",
+    "id": 22,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_hr",
+    "condition": "Emp_Advisor role",
+    "id": 23,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_hr/db_pay",
+    "condition": "Emp_Advisor role",
+    "id": 24,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/BOX",
+    "condition": "MSC_Student role",
+    "id": 25,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Set",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/HR_SYS",
+    "condition": "Employee role",
+    "id": 26,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_emp",
+    "condition": "Engineering role",
+    "id": 27,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/emp/prof/Freddie/lib_serv",
+    "condition": "Lib_Admin role",
+    "id": 28,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/emp/prof/Freddie",
+    "condition": "Freddie = user.name",
+    "id": 29,
+    "permissions": {
+      "list": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./db/db_lib/sys",
+    "condition": "Guest role",
+    "id": 30,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/stu/msc_stu/Wilfred",
+    "condition": "Engineering role",
+    "id": 31,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./usr/stu/*/*/docs",
+    "condition": "Business role",
+    "id": 32,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./apps/BOX",
+    "condition": "Employee role",
+    "id": 33,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  },
+  {
+    "match": "./sch/eng/*",
+    "condition": "UG_Student role",
+    "id": 34,
+    "permissions": {
+      "list": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "get": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "create": {
+        "permission": "Clear",
+        "cssArray": []
+      },
+      "update": {
+        "permission": "Set",
+        "cssArray": []
+      },
+      "delete": {
+        "permission": "Clear",
+        "cssArray": []
+      }
+    },
+    "cssArray": []
+  }
+]

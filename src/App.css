@@ -1,0 +1,177 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}
+.chooseRoute {
+  max-width: 600px;
+}
+.chooseRoute label {
+  text-align: left;
+}
+
+.chooseRoute label {
+  flex: 1;
+}
+
+.App {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-height: 100vh;
+  max-width: 100vw;
+  position: absolute;
+  inset: 0;
+  gap: 5px;
+}
+
+.oyh {
+  overflow-y: hidden;
+}
+
+.App-Body {
+  margin: 2px;
+  height: 100%;
+  width: 100%;
+
+  position: relative;
+}
+
+.title {
+  width: 100vw;
+}
+
+/* .title-container {
+  opacity: 0.5;
+  background-color: transparent;
+} */
+
+button.active {
+  box-shadow: 0 0 5px #004ec2;
+}
+
+.fullwidth {
+  width: 100vw;
+  max-width: 1600px;
+  margin: auto;
+  /* background-color: red; */
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.key,
+.padding {
+  flex: 1;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.start {
+  align-items: flex-start;
+}
+.center {
+  align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.userview.hl-list,
+.userview.hl-get,
+.userview.hl-create,
+.userview.hl-update,
+.userview.hl-delete {
+  border-color: black;
+  border-radius: 8px;
+  position: relative;
+  /* margin: 2px 0; */
+}
+.selection-helper.hl-list,
+.selection-helper.hl-get,
+.selection-helper.hl-create,
+.selection-helper.hl-update,
+.selection-helper.hl-delete {
+  border-color: black;
+  position: relative;
+  /* margin: 2px 0; */
+}
+.rule-card.hl-list,
+.rule-card.hl-get,
+.rule-card.hl-create,
+.rule-card.hl-update,
+.rule-card.hl-delete {
+  /* border: 2px solid black; */
+  border: 1px solid black;
+}
+.hl-list .hl-list,
+.hl-get .hl-get,
+.hl-create .hl-create,
+.hl-update .hl-update,
+.hl-delete .hl-delete {
+  border: revert;
+}
+
+.selection-helper {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 2px 0;
+  padding: 2px 5px;
+}
+
+.results-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  font-size: 8px;
+}
+
+.CDContainer {
+  width: 100%;
+  max-width: 100vw;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.app-container {
+  overflow-y: scroll;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.chooseRoute {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.uuid {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  pointer-events: none;
+}

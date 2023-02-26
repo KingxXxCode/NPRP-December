@@ -1,0 +1,48 @@
+[
+  { "name": "Arnold", "cssArray": [], "roles": ["Employee","IT_Admin"] },
+  { "name": "Adele", "cssArray": [], "roles": ["Employee","IT_Admin"]},
+  {
+    "name": "Barry",
+    "cssArray": [],
+    "roles": ["Employee", "Engineering", "Head_Eng_School", "Tutor" ]
+  },
+  { "name": "Cassie", "cssArray": [], "roles": ["Employee","Eng_Coordinator","Engineering"] },
+  { "name": "Debbie", "cssArray": [], "roles": ["Business", "Employee","Tutor"] },
+  { "name": "Donald", "cssArray": [], "roles": ["Business","Employee","Head_Bus_School"] },
+  { "name": "Edward", "cssArray": [], "roles": ["Business", "Coordinator", "Employee"] },
+  { "name": "Freddie", "cssArray": [], "roles": ["Employee", "Lib_Admin"] },
+  { "name": "Gabrielle", "cssArray": [], "roles": ["Employee","Emp_Advisor"] },
+  { "name": "Gideon", "cssArray": [], "roles": ["Employee","HR_Assistant"] },
+  { "name": "Harold", "cssArray": [], "roles": ["Employee","Stu_Liaison"] },
+  { "name": "Jodie", "cssArray": [], "roles": ["Employee","Lib_Admin"] },
+  { "name": "Kim", "cssArray": [], "roles": ["Administrator","Employee","Emp_Advisor"] },
+  { "name": "Kirk", "cssArray": [], "roles": ["Coordinator","Employee"] },
+  { "name": "Lawrence", "cssArray": [], "roles": ["Employee","PHD_Student","Researcher"] },
+  { "name": "Maurice", "cssArray": [], "roles": ["Employee","Researcher"] },
+  { "name": "Nancy", "cssArray": [], "roles": ["Employee",  "MSC_Student", "Student"] },
+  { "name": "Paul", "cssArray": [], "roles": ["Business", "Student","UG_Student"] },
+  { "name": "Quincy", "cssArray": [], "roles": ["Business","Student","UG_Student"] },
+  {
+    "name": "Ronald",
+    "cssArray": [],
+    "roles": ["Business", "Employee","MSC_Student", "Student","Tutor"]
+  },
+  { "name": "Ralph", "cssArray": [], "roles": ["Engineering","Guest","Employee"] }, 
+  { "name": "Siobhan", "cssArray": [], "roles": ["Engineering","Guest","Researcher","Student"] },
+  { "name": "Sally", "cssArray": [], "roles": ["Engineering","Student","UG_Student"] },
+  { "name": "Toby", "cssArray": [], "roles": ["Engineering","Student","UG_Student"] },
+  { "name": "Ursula", "cssArray": [], "roles": ["Business","MSC_Student","Student"] },
+  { "name": "Veronica", "cssArray": [], "roles": ["Business","Student","UG_Student"] },
+  { "name": "Wilfred", "cssArray": [], "roles": ["Engineering","MSC_Student","Student"] },
+  { "name": "Xavian", "cssArray": [], "roles": ["Engineering","Student","UG_Student"] },
+  {
+    "name": "Yaakov",
+    "cssArray": [],
+    "roles": ["Employee","MSC_Student", "Student","Stu_Liaison"]
+  },
+  {
+    "name": "Zachariah",
+    "cssArray": [],
+    "roles": ["Employee","Lib_Admin","Student","UG_Student"]
+  }
+]

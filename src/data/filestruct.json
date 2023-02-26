@@ -1,0 +1,1327 @@
+[
+  {
+    "type": "directory",
+    "name": "apps",
+    "parent": ".",
+    "cssArray": [],
+    "children": [
+      {
+        "type": "directory",
+        "name": "CANVAS",
+        "parent": "apps",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "file",
+            "name": "eng_courses.doc",
+            "parent": "CANVAS",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "file",
+            "name": "bus_courses.doc",
+            "parent": "CANVAS",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "directory",
+            "name": "eng",
+            "parent": "CANVAS",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "eng_modules.xlsx",
+                "parent": "eng",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "eng_exam.doc",
+                "parent": "eng",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "bus",
+            "parent": "CANVAS",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "bus_modules.xlsx",
+                "parent": "bus",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "bus_exam.doc",
+                "parent": "bus",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "BOX",
+        "parent": "apps",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "emp_info",
+            "parent": "BOX",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "staff_guide.mp3",
+                "parent": "emp_info",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "staff_training.doc",
+                "parent": "emp_info",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "HR_SYS",
+        "parent": "apps",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "emp_dets",
+            "parent": "HR_SYS",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "emp_status.xlsx",
+                "parent": "emp_dets",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "emp_intro.doc",
+                "parent": "emp_dets",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "LIB_SYS",
+        "parent": "apps",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "lib_res",
+            "parent": "LIB_SYS",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "scopus_guide.mp3",
+                "parent": "lib_res",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "lib_index.doc",
+                "parent": "lib_res",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "journals",
+                "parent": "lib_res",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "journals_index.xlsx",
+                    "parent": "journals",
+                    "cssArray": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "IT_TICKET",
+        "parent": "apps",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "ticket_dets",
+            "parent": "IT_TICKET",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "ticket_status.xlsx",
+                "parent": "ticket_dets",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "ticket_guide.doc",
+                "parent": "ticket_dets",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "canvas_guide.doc",
+        "parent": "apps",
+        "cssArray": [],
+        "children": []
+      },
+      {
+        "type": "file",
+        "name": "box_guide.doc",
+        "parent": "apps",
+        "cssArray": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "db",
+    "parent": ".",
+    "cssArray": [],
+    "children": [
+      {
+        "type": "directory",
+        "name": "db_emp",
+        "parent": "db",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "emp_info",
+            "parent": "db_emp",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "staff_guide.mp3",
+                "parent": "emp_info",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "staff_training.doc",
+                "parent": "emp_info",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "db_stu",
+        "parent": "db",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "stu_info",
+            "parent": "db_stu",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "welcome.mp3",
+                "parent": "stu_info",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "stu_guide.doc",
+                "parent": "stu_info",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "db_lib",
+        "parent": "db",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "sys",
+            "parent": "db_lib",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "lib_guide.mp3",
+                "parent": "sys",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "lib_res.doc",
+                "parent": "sys",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "lib_arch",
+                "parent": "sys",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "archives.xlsx",
+                    "parent": "lib_arch",
+                    "cssArray": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "db_hr",
+        "parent": "db",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "file",
+            "name": "staff_list.xlsx",
+            "parent": "db_hr",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "file",
+            "name": "benefits.xlsx",
+            "parent": "db_hr",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "directory",
+            "name": "db_pay",
+            "parent": "db_hr",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "salary.xlsx",
+                "parent": "db_pay",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "db_guide.doc",
+        "parent": "db",
+        "cssArray": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "sch",
+    "parent": ".",
+    "cssArray": [],
+    "children": [
+      {
+        "type": "directory",
+        "name": "eng",
+        "parent": "sch",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "file",
+            "name": "eng_staff.xlsx",
+            "parent": "eng",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "file",
+            "name": "eng_stu.xlsx",
+            "parent": "eng",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "directory",
+            "name": "inftc",
+            "parent": "eng",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "inftc_course.doc",
+                "parent": "inftc",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "res",
+                "parent": "inftc",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "res_projects.doc",
+                    "parent": "res",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "file",
+                    "name": "seminar_info.doc",
+                    "parent": "res",
+                    "cssArray": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "prod_des",
+            "parent": "eng",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "prod_design.doc",
+                "parent": "prod_des",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "cars_proj",
+                "parent": "prod_des",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "car_design.doc",
+                    "parent": "cars_proj",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "file",
+                    "name": "cars_info.doc",
+                    "parent": "cars_proj",
+                    "cssArray": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "eng_dept.xlsx",
+            "parent": "eng",
+            "cssArray": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "bus",
+        "parent": "sch",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "file",
+            "name": "bus_staff.xlsx",
+            "parent": "bus",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "file",
+            "name": "bus_stu.xlsx",
+            "parent": "bus",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "directory",
+            "name": "econ",
+            "parent": "bus",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "econ_course.doc",
+                "parent": "econ",
+                "cssArray": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "sch_index.doc",
+        "parent": "sch",
+        "cssArray": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "usr",
+    "parent": ".",
+    "cssArray": [],
+    "children": [
+      {
+        "type": "directory",
+        "name": "stu",
+        "parent": "usr",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "file",
+            "name": "stu_list.xlsx",
+            "parent": "stu",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "file",
+            "name": "stu_courses.xlsx",
+            "parent": "stu",
+            "cssArray": [],
+            "children": []
+          },
+          {
+            "type": "directory",
+            "name": "ug_stu",
+            "parent": "stu",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "directory",
+                "name": "Paul",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Pauls.doc",
+                    "parent": "Paul",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "dwnld",
+                    "parent": "Paul",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "courses.doc",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      },
+                      {
+                        "type": "file",
+                        "name": "exams.doc",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Quincy",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Quincys.doc",
+                    "parent": "Quincy",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "docs",
+                    "parent": "Quincy",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "timetable.doc",
+                        "parent": "docs",
+                        "cssArray": [],
+                        "children": []
+                      },
+                      {
+                        "type": "file",
+                        "name": "homework.doc",
+                        "parent": "docs",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Sally",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Sallys.doc",
+                    "parent": "Sally",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "dwnld",
+                    "parent": "Sally",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "diary.doc",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Toby",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Tobys.doc",
+                    "parent": "Toby",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "dwnld",
+                    "parent": "Toby",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "appslist.xlsx",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Veronica",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Veronicas.doc",
+                    "parent": "Veronica",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "movies",
+                    "parent": "Veronica",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "movielist.xlsx",
+                        "parent": "movies",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Xavian",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Xavians.doc",
+                    "parent": "Xavian",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "bak",
+                    "parent": "Xavian",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "baklist.xlsx",
+                        "parent": "bak",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Zachariah",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Zachariahs.doc",
+                    "parent": "Zachariah",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "dwnld",
+                    "parent": "Zachariah",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "results.xlsx",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "ug_stu_hub",
+                "parent": "ug_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "ug_stu_news.doc",
+                    "parent": "ug_stu_hub",
+                    "cssArray": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "msc_stu",
+            "parent": "stu",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "directory",
+                "name": "Ronald",
+                "parent": "msc_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Ronalds.doc",
+                    "parent": "Ronald",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "dwnld",
+                    "parent": "Ronald",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "courses.doc",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      },
+                      {
+                        "type": "file",
+                        "name": "exams.doc",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Ursula",
+                "parent": "msc_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Ursulas.doc",
+                    "parent": "Ursula",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "docs",
+                    "parent": "Ursula",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "timetable.doc",
+                        "parent": "docs",
+                        "cssArray": [],
+                        "children": []
+                      },
+                      {
+                        "type": "file",
+                        "name": "homework.doc",
+                        "parent": "docs",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Wilfred",
+                "parent": "msc_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Wilfreds.doc",
+                    "parent": "Wilfred",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "media",
+                    "parent": "Wilfred",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "diary.doc",
+                        "parent": "media",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Yaakov",
+                "parent": "msc_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Yaakovs.doc",
+                    "parent": "Yaakov",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "apps",
+                    "parent": "Yaakov",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "appslist.xlsx",
+                        "parent": "apps",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "msc_stu_hub",
+                "parent": "msc_stu",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "msc_stu_news.doc",
+                    "parent": "msc_stu_hub",
+                    "cssArray": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "emp",
+        "parent": "usr",
+        "cssArray": [],
+        "children": [
+          {
+            "type": "directory",
+            "name": "aca",
+            "parent": "emp",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "file",
+                "name": "aca_list.xlsx",
+                "parent": "aca",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "file",
+                "name": "aca_info.doc",
+                "parent": "aca",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "Barry",
+                "parent": "aca",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "eng_inf_exam.doc",
+                    "parent": "Barry",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "teach",
+                    "parent": "Barry",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "stu.xlsx",
+                        "parent": "teach",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Debbie",
+                "parent": "aca",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "bus_exam.doc",
+                    "parent": "Debbie",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "teach",
+                    "parent": "Debbie",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "modules.xlsx",
+                        "parent": "teach",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "prof",
+            "parent": "emp",
+            "cssArray": [],
+            "children": [
+              {
+                "type": "directory",
+                "name": "Arnold",
+                "parent": "prof",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Arnolds.doc",
+                    "parent": "Arnold",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "dwnld",
+                    "parent": "Arnold",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "mags.doc",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      },
+                      {
+                        "type": "file",
+                        "name": "tickets.doc",
+                        "parent": "dwnld",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Cassie",
+                "parent": "prof",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Cassies.doc",
+                    "parent": "Cassie",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "crs_docs",
+                    "parent": "Cassie",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "tasks.doc",
+                        "parent": "crs_docs",
+                        "cssArray": [],
+                        "children": []
+                      },
+                      {
+                        "type": "file",
+                        "name": "courses.doc",
+                        "parent": "crs_docs",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Edward",
+                "parent": "prof",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Edwards.doc",
+                    "parent": "Edward",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "media",
+                    "parent": "Edward",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "coursesmedia.mp3",
+                        "parent": "media",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Freddie",
+                "parent": "prof",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Freddie.doc",
+                    "parent": "Freddie",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "lib_serv",
+                    "parent": "Freddie",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "lib_servlist.xlsx",
+                        "parent": "lib_serv",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Gabrielle",
+                "parent": "prof",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Gabrielles.doc",
+                    "parent": "Gabrielle",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "emp_serv",
+                    "parent": "Gabrielle",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "emp_servlist.xlsx",
+                        "parent": "emp_serv",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Harold",
+                "parent": "prof",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "Harolds.doc",
+                    "parent": "Harold",
+                    "cssArray": [],
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "careers",
+                    "parent": "Harold",
+                    "cssArray": [],
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "careerslist.xlsx",
+                        "parent": "careers",
+                        "cssArray": [],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "Jodie",
+                "parent": "prof",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "Kim",
+                "parent": "prof",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "Lawrence",
+                "parent": "prof",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "Maurice",
+                "parent": "prof",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "Nancy",
+                "parent": "prof",
+                "cssArray": [],
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "emp_hub",
+                "parent": "prof",
+                "cssArray": [],
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "emp_news.doc",
+                    "parent": "emp_hub",
+                    "cssArray": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "users_index.doc",
+        "parent": "usr",
+        "cssArray": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "file",
+    "name": "readme.md",
+    "parent": ".",
+    "cssArray": [],
+    "children": []
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "nprp-november",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "bw": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^3.4.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "d3": "^7.8.2",
+    "fingerprintjs2": "^2.1.4",
+    "getmac": "^5.20.0",
+    "immutability-helper": "^3.1.1",
+    "macaddress": "^0.5.3",
+    "paho-mqtt": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.4",
+    "react-router-dom": "^6.6.2",
+    "reactour": "^1.19.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.2.5"
+  }
+}

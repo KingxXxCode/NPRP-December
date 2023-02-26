@@ -1,0 +1,122 @@
+[
+    {
+      "id": 0,
+      "text": "Are you ready to start the experiment ",
+      "options": ["yes"]
+    },
+    {
+      "id": 1,
+      "text": "What Role gives Freddie ",
+      "options": ["IT_Admin","Lib_Admin","Employee", "Lib_Admin AND Employee"]
+    },
+    {
+        "id": 2,
+        "text": "How many roles does Zacchariah have",
+        "options": ["none","one","three","four"]
+    },
+    {
+      "id": 3,
+      "text": "Which folder would you find Quincys own sub-folder under",
+      "options": ["usr/emp/prof","usr/stu/msc_stu","usr/stu/ug_stu","db/db_stu"]
+    },
+    {
+      "id": 4,
+      "text": "What file/s does Wilfred have in his media folder",
+      "options": ["Wilfreds.doc","diary.doc","timetable.doc","results.xlsx"]
+    },
+    {
+      "id": 5,
+      "text": "Who has a file called 'tasks.doc'",
+      "options": ["Sally","Ursula","Cassie","Toby"]
+    },
+    {
+      "id": 6,
+      "text": "Kim wants to show new students the welcome.mp3 video which is in a sub-folder of db. Is she able to",
+      "options": ["no - she can only list the file", "no - she has no access", "yes - she can play the video"]
+    },
+    {
+      "id": 7,
+      "text": "Which student/s would be able to play the welcome.mp3 video on the db to new students",
+      "options": ["Harold and Freddie", "Edward", "Yaakov and Harold", "Edward and Harold"]
+    },
+    {
+      "id": 8,
+      "text": "Can Harold update the Student Guide - 'stu_guide.doc' stored on the database /db",
+      "options": ["yes", "no", "not sure"]
+    },
+    {
+      "id": 9,
+      "text": "Do all the Coordinators have the same access to the econ_course.doc under sch/bus/econ",
+      "options": ["yes", "no", "not sure"]
+    },
+    {
+      "id": 10,
+      "text": "Does the Lib_admin role have full permissions to the library system under db/db_lib",
+      "options": ["yes", "no", "not sure"]
+    },
+    {
+      "id": 11,
+      "text": "Do Tutors with the additional Role of Business have the right permissions to update bus_stu.xlxs under the sch/bus",
+      "options": ["yes", "no", "not sure"]
+    },
+    {
+      "id": 12,
+      "text": "Have ALL students been given list and get access to the CANVAS application (apps)",
+      "options": ["yes", "no", "not sure"]
+    },
+    {
+      "id": 13,
+      "text": "Lawrence is not able to save a file to BOX application at apps/box. Why",
+      "options": ["Only Employees have list/get access for BOX", "Lawrence only has list/get access for BOX", "Only MSC_students have create and update access for BOX"]
+    },
+    {
+      "id": 14,
+      "text": "Can all employees delete files from their own directory",
+      "options": ["true", "false", "some can"]
+    },
+    {
+      "id": 15,
+      "text": "What folders does Barry have permissions to update files in",
+      "options": ["usr/emp/acc/Barry", "sch/eng", "both of these", "neither of these"]
+    },
+    {
+      "id": 16,
+      "text": "Which Role can delete files in the Library System application (apps/LIB_SYS)",
+      "options": ["Employee", "Lib_Admin", "both of these", "neither of these"]
+    },
+    {
+      "id": 17,
+      "text": "Toby wants to update a ticket he created in the IT_TICKET Application (apps/IT_TICKET). Can he",
+      "options": ["yes", "no", "not sure"]
+    },
+    {
+      "id": 18,
+      "text": "The IT_Admin Role should only have list access to the whole file tree, and all permissions to apps/IT_TICKET. Have these requirements been implemented correctly.",
+      "options": ["yes - permissions are set for the Role as specified", "no - the Role has got extra access to some apps", "no - the Role is denied access to some usr folders"]
+    },
+    {
+      "id": 19,
+      "text": "Coordinators should be able to list get and update files on Canvas (apps/CANVAS). Does the Eng_Coordinator have the right access",
+      "options": ["yes", "no", "not sure"]
+    },
+    {
+      "id": 20,
+      "text": "What Role can create and delete files on Canvas (apps/CANVAS) ",
+      "options": ["Engineering", "Coordinator", "Tutor", "Head_Bus_School"]
+    },
+    {
+      "id": 21,
+      "text": "All employees should have full access to BOX. What would you do to implement this",
+      "options": ["Add a new Rule for employee", "Change Rule No. 24 to employee Role", "Update Rule 16 to employee Role", "Not sure"]
+    },
+    {
+      "id": 22,
+      "text": "A new Rule has been added to give the HR_Assistant Role full access to the /db/db_hr folder. What could be an issue with this",
+      "options": ["It will override the HR_Assistant roles access to db/db_emp", "It will also give the HR_Assistant access to db/db_hr/db_pay", "It would overide the Emp_Advisors Role access to db/db_hr ", "not sure"]
+    },
+    {
+      "id": 23,
+      "text": "A new Rule has been added to give Employees update access to staff_training.doc in db/db_emp/emp_info. What effect will this have",
+      "options": ["Employee access to db/db_emp will be overriden by new rule", "Employee access to db/db_emp will remain the same", "Not sure"]
+    }
+]

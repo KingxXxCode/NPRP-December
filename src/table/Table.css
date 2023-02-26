@@ -1,0 +1,86 @@
+table {
+  border-spacing: 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow-x: scroll;
+  text-align: left;
+}
+
+th {
+  border-bottom: 0.1rem solid;
+  text-align: left;
+  height: 56px;
+  /* padding: 0 16px; */
+  font-weight: medium;
+  position: sticky;
+  top: 0;
+  background-color: lightgrey;
+}
+
+th button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  height: 56px;
+  width: 100%;
+  text-align: left;
+  padding-left: 16px;
+}
+
+th:hover {
+  background-color: whitesmoke;
+}
+
+.active-sort:after {
+  display: inline;
+  content: " ↑";
+}
+.active-sort-reverse:after {
+  display: inline;
+  content: " ↓";
+}
+
+th:first-child {
+  border-top-left-radius: 5px;
+}
+th:last-child {
+  border-top-right-radius: 5px;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  th {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+td {
+  font-size: 0.9em;
+  height: 52px;
+  padding: 0 16px;
+}
+
+.td-numeric {
+  text-align: right;
+}
+
+tr:not(:first-child):hover {
+  background-color: whitesmoke;
+}
+
+table tr:hover th:first-child {
+  border-top-left-radius: 5px;
+}
+table tr:hover th:last-child {
+  border-top-right-radius: 5px;
+}
+table tr:last-child:hover td:first-child {
+  border-bottom-left-radius: 5px;
+}
+table tr:last-child:hover td:last-child {
+  border-bottom-right-radius: 5px;
+}

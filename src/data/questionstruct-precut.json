@@ -1,0 +1,289 @@
+[
+  {
+    "id": 0,
+    "text": "Are you ready to start the training scenario ",
+    "options": ["Yes"],
+    "tips": [
+      "In training mode, helpful tips will be displayed here. 'Click' one answer from the <option> buttons and then 'Click' <Next> to go to Next question. You can 'Click' <Back> to review previous question, or 'Click' <Next> to skip on to next question",
+      "In training mode, helpful tips will be displayed here. 'Click' one answer from the <option> buttons and then 'Click' <Next> to go to Next question. You can 'Click' <Back> to review previous question, or 'Click' <Next> to skip on to next question",
+      "In training mode, helpful tips will be displayed here. 'Click' one answer from the <option> buttons and then 'Click' <Next> to go to Next question. You can 'Click' <Back> to review previous question, or 'Click' <Next> to skip on to next question"
+    ]
+  },
+  {
+    "id": 1,
+    "text": "Does 'Barry' have the Role of Eng_Tutor ",
+    "markdown": "Does **'Barry'** have the Role of ___'Eng_Tutor'___ ",
+    "options": ["Yes", "No", "Not sure"],
+    "correct": 1,
+    "tips": [
+      "'Click' View By <User> button and find 'Barry' with his Roles listed alongside. He has the Roles of 'Tutor' and 'Engineering', but there is no Role called 'Eng_Tutor'.",
+      "'Click' View By <User> button and <Expand All> the X-Axis to see Users and their Roles. Scroll horizontally to find that 'Barry' has the Roles of 'Tutor' and 'Engineering', but there is no Role called 'Eng_Tutor'.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the <input box> and then 'Click' on 'Barry' in the option list. He will be highlighted in the User circle with links between his Roles. He has the Roles of 'Tutor' and 'Engineering', but there is no Role called 'Eng_Tutor'."
+    ]
+  },
+  {
+    "id": 2,
+    "text": "What Role/s does Arnold have ",
+    "markdown": "What Role/s does **'Arnold'** have ",
+    "options": ["'IT_Admin'", "'Employee'", "'IT_Admin' and 'Employee'", "'MSC Student'"],
+    "correct": 2,
+    "tips": [
+      "'Click' View By <User> button and you will see that 'Arnold' has the Roles of 'IT_Admin' and 'Employee'. ",
+      "'Click' View By <User> button and <Expand All> the X-Axis to see Users and their Roles. Scroll horizontally to find that 'Arnold' has the Roles of 'IT_Admin' and 'Employee'.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the <input box> and then 'Click' on 'Arnold' in the option list. He will be highlighted in the User circle with links between his Roles. He has the Roles of 'IT_Admin' and 'Employee'."
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Is 'Yaakov' an 'Employee' AND a 'MSC_Student' ",
+    "markdown": "Is **'Yaakov'** an ___'Employee'___  AND a ___'MSC_Student'___ ",
+    "options": ["Yes", "No", "Not sure"],
+    "correct": 0,
+    "tips": [
+      "'Click' View By <User> button and you will see that 'Yaakov' is an 'Employee' AND an 'MSC_Student'. He also has two other Roles. You can also press and hold the COMMAND key with 'F' key to bring up the find box, and search for all instances of 'Yaakov'.",
+      "'Click' View By <User> button and <Expand All> the X-Axis to see Users and their Roles. Scroll horizontally to find that 'Yaakov' is an 'Employee' AND an 'MSC_Student'. He also has two other Roles. You can also press and hold the COMMAND key with 'F' key to bring up the find box, and search for all instances of 'Yaakov'.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the <input box> and then 'Click' on 'Yaakov' in the option list. You can also type 'Yaakov' in the <input box> to find him in the list. He will be highlighted in the User Role circle with links between his Roles. He has the Roles of 'MSC_Student' AND 'Employee'. He also has two other Roles. "
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Which Users have the Role of 'Lib_Admin' ",
+    "markdown": "Which Users have the Role of ___'Lib_Admin'___ ",
+    "options": [
+      "'Freddie'",
+      "'Jodie' AND 'Zacharriah'",
+      "'Zachariah' AND 'Gabrielle'",
+      "'Freddie', 'Zacharriah' AND 'Jodie'"
+    ],
+    "correct": 3,
+    "tips": [
+      "'Click' View By <Role> button and find which Users have the Role of 'Lib_Admin' Role. You can use the search function to look for 'Lib_Admin'.",
+      "'Click' the <arrow> button to expand the X-Axis. 'Click' View By <Role> button, and scroll horizontally until you find the Role of 'Lib_Admin'. The Users with this Role will be shown below on the X-Axis with the same white or shaded background as the Role.",
+      "'Click' the 'Users-Roles' switch to <Roles>. 'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' in the <input box> and then 'Click' on 'Lib_Admin' in the option list. The Users in this Role will be displayed"
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Do 'Edward' and 'Kirk' have the exactly the same Roles allocated to them ",
+    "markdown": "Do **'Edward'** and **'Kirk'** have the exactly the same Roles allocated to them ",
+    "options": [
+      "Yes",
+      "No - 'Edward' has an extra Role",
+      "No - 'Kirk' has an extra Role"
+    ],
+    "correct": 1,
+    "tips": [
+      "'Click' View By <User> button to compare what Roles 'Edward' and 'Kirk' have. They both have the Role of Coordinator and 'Employee', but 'Edward' also has the extra Role of 'Business'.",
+      "'Click' 'Sort By' User button to see all the Roles that 'Kirk' and 'Edward' have. They both have the Role of Coordinator and 'Employee', but 'Edward' also has the extra Role of Business.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection.  'Click' in the <input box> and 'Click' on 'Edward' and then 'Kirk' in the option list. They both have the Role of 'Coordinator' and 'Employee', but 'Edward' also has the extra Role of 'Business'."
+    ]
+  },
+  {
+    "id": 6,
+    "text": "There are four Folders at the top level of the File Tree. '/usr' (Users), '/sch' (Schools), '/db' (Database) and '/apps' (Applications) ",
+    "markdown": "There are four Folders at the top level of the File Tree. **'/usr'** (Users), **'/sch'** (Schools), **'/db'** (Database) and **'/apps'** (Applications) ",
+    "options": ["True", "False", "Not sure"],
+    "correct": 0,
+    "tips": [
+      "'Click' the <black arrow> to collapse ▼ the Folders, or you can use the <Collapse all> button. If you collapse all, you will find the above four Folders at the top level.",
+      "'Click' the <black arrow> to collapse ▼ the Folders, or you can use the <Collapse all> button. If you collapse all, you will find the above four Folders at the top level.",
+      "'Click' on <Resources> and 'Click' in the <input box> and then 'Click' on 'Overview' from the option list to display all the Resources. There are four separate Folders at the top level (shown by the largest, outermost circles) in Resources (root), which are labelled as 'usr', 'sch', 'db', and 'apps'. You can 'Hover' over each circle to display the labels."
+    ]
+  },
+  {
+    "id": 7,
+    "text": "The '/sch/eng' Folder for Engineering School has two Sub-Folders for - '/inftc' (Informatics) AND '/prod_des' (Product Design) ",
+    "markdown": "The **'/sch/eng'** Folder for Engineering School has two Sub-Folders for - **'/inftc'** (Informatics) AND **'/prod_des'** (Product Design) ",
+    "options": ["True", "False", "Not sure"],
+    "correct": 0,
+    "tips": [
+      "'Click' the <black arrow> to expand ▶ the '/sch' Folder. There are two Sub-Folders at '/sch/eng/inftc' AND '/sch/eng/prod_des'.",
+      "'Click' the <black arrow> to expand ▶ the '/sch' Folder. There are two Sub-Folders at '/sch/eng/inftc' AND '/sch/eng/prod_des'.",
+      "'Click' on <Resources> and the <input box> and 'Click' 'resources-sch-eng' from the option list to display this Sub-Folder in the Resources. 'Hover' over the two largest circles inside to display the labels for the Sub-Folders '/inftc' AND '/prod_des'."
+    ]
+  },
+  {
+    "id": 8,
+    "text": "The '/db' (Database) Folder has FIVE sub-folders for '/db_emp' (employees), '/db_stu' (students), '/db_lib' (library), '/db_hr' (HR), and '/db_guide' (guides)",
+    "markdown": "The **'/db'** (Database) Folder has FIVE sub-folders for **'/db_emp'** (employees), **'/db_stu'** (students), **'/db_lib'** (library), **'/db_hr'** (HR), and **'/db_guide' (guides)",
+    "options": ["True", "False", "Not sure"],
+    "correct": 1,
+    "tips": [
+      "'Click' the <Collapse All> button, and then 'Click' the <black arrow> to expand ▶ the '/db' (Database) Folder. There '/db' Folder only has four Sub-Folders and a File called 'db_guide.doc'.",
+      "'Click' the <Collapse All> button, and then 'Click' the <black arrow> to expand ▶ the '/db' (Database) Folder. There '/db' Folder only has four Sub-Folders and a File called 'db_guide.doc'.",
+      "'Click' on <Resources> and 'Click' the <White X> to clear last selection. 'Click' in the <input box> and 'Click' 'resources-db' from the option list to display this Sub-Folder in the Resources. The '/db' Folder only has four Sub-Folders inside and a File called 'db_guide.doc'. 'Hover' over each of the largest circles in '/db' to display the labels for the Sub-Folder names."
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Every User with the 'MSC_Student' Role has their own named directory under '/usr/stu/msc_stu' ",
+    "markdown": "Every User with the ___'MSC_Student'___ Role has their own named directory under **'/usr/stu/msc_stu'** ",
+    "options": ["True", "False", "Not sure"],
+    "correct": 1,
+    "tips": [
+      "'Click' View By <Role> button. There are five Users with the Role of 'MSC_student'. 'Click' the <black arrow> to expand ▶ the '/usr/stu/msc_stu' Folder. Check the same five Users have their own Sub-Folder here. 'Nancy' is an 'MSC_Student', but doesn't have her own named Folder.",
+      "'Click' View By <User> button, and 'Click' the <X-Axis Expand> button to find there are five Users with the Role of 'MSC_student'. 'Click' the <black arrow> to expand ▶ the '/usr/stu/msc_stu' Folder. Check the same five Users have their own Sub-Folder here. 'Nancy' is an 'MSC_Student', but doesn't have her own named Folder.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the 'Users-Roles' switch to <Roles>. 'Click' in the <input box> and 'Click' on 'MSC_Student' from the option list. There are five Users with the Role of 'MSC_student' displayed. 'Click' on 'Resources' and 'Click' on 'resources-usr-stu-msc-stu' Folder. Check the same five Users have their own Sub-Folder here. 'Nancy' is an 'MSC_Student', but doesn't have her own named Folder."
+    ]
+  },
+  {
+    "id": 10,
+    "text": "There are two Sub-Folders under '/usr/emp' (employees) : one is for '/aca' (academics) and one is for '/prof' (professionals) ",
+    "markdown": "There are two Sub-Folders under **'/usr/emp'** (employees) : one is for **'/aca'** (academics) and one is for **'/prof'** (professionals) ",
+    "options": ["True", "False", "Not sure"],
+    "correct": 0,
+    "tips": [
+      "'Click' the <Collapse All> button, and then 'Click' the <black arrow> to expand ▶ the '/usr/emp' (employees) Sub-Folder. There are two Sub-Folders here for '/aca' and '/prof'.",
+      "'Click' the <Collapse All> button, and then 'Click' the <black arrow> to expand ▶ the '/usr/emp' (employees) Sub-Folder. There are two Sub-Folders here for '/aca' and '/prof'.",
+      "'Click' on <Resources> and 'Click' the <White X> to clear last selection. 'Click' the 'resources-usr-emp' Sub-Folder in the option list. 'Hover' over the the largest circles within to see the Sub-Folder Tooltips with the labels '/aca' and '/prof'."
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Which Users have their own named Folder under '/usr/emp/aca', and what Role do they both have ",
+    "markdown": "Which Users have their own named Folder under '/usr/emp/aca', and what Role do they both have ",
+    "options": [
+      "'Freddie' and 'Jodie' with 'Lib_Admin' Role",
+      "'Debbie' and 'Barry' with 'Tutor' Role",
+      "'Gabrielle' and 'Kim' with 'Emp_Advisor' Role"
+    ],
+    "correct": 1,
+    "tips": [
+      "'Click' the <black arrow> to expand ▶ the '/usr/emp/aca' Sub-Folder. Users 'Barry' and 'Debbie' have their own Sub-Folders here. 'Click' on View By <User> button to see that 'Barry' and 'Debbie' both have the Role of 'Tutor'. ",
+      "'Click' the <black arrow> to expand ▶ the '/usr/emp/aca' Sub-Folder. Users 'Barry' and 'Debbie' have their own Sub-Folders here. 'Click' on View By <User> and 'Click' on the <X-Axis Expand> button to see that 'Barry' and 'Debbie' both have the Role of 'Tutor'. ",
+      "'Click' on <Resources> and 'Click' the <White X> to clear last selection. 'Click' the 'resources-usr-emp-aca' Sub-Folder in the option list. Users 'Barry' and 'Debbie' have their own Sub-Folders here. 'Click' on <Personnel> and 'Click' on 'Barry' and 'Debbie' in the option list to see they both have the Role of 'Tutor'. "
+    ]
+  },
+  {
+    "id": 12,
+    "text": "'Harold' and 'Yaakov' have the Role of 'Stu_Liaison'. Do they both have all permissions (LGCUD) to the '/db/db_stu' Sub-Folder ",
+    "markdown": "**'Harold'** and **'Yaakov'** have the Role of ___'Stu_Liaison'___. Do they both have all permissions (LGCUD) to the '/db/db_stu' Sub-Folder ",
+    "options": ["Yes", "No", "Not sure"],
+    "correct": 0,
+    "tips": [
+      "'Click' on the Role of 'Stu_Liaison'. 'Click' the <black arrow> to expand ▶ the '/db/db_stu' Sub-Folder. All permissions granted is shown as five green bullets. Rule 11 that has granted this access is displayed.",
+      "'Click' on <X-Axis Expand> button, and 'Click' View By <Role> button. Scroll along X-Axis to 'Stu_Liaison' Role, and Scroll down the Y-Axis to the '/db/db_stu' Sub-Folder. 'Harold' and 'Yaakov' have full permissions (five green bullets). 'Click' on these cells to see that Rule 11 granted full permissions for this Role and Filepath.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Roles>. 'Click' on the 'Stu_Liaison' Role to display the arrow links to Resources. 'Hover' over the arrow to display the Tooltip to see that Rule 11 granted full permissions for this Role and Filepath"
+    ]
+  },
+  {
+    "id": 13,
+    "text": "What Folder/s does 'Arnold' in his Role of 'IT_Admin' have full access (LGCUD) to ",
+    "markdown": "What Folder/s does **'Arnold'** in his Role of ___'IT_Admin'___ have full access (LGCUD) to ",
+    "options": [
+      "'/usr/emp/prof/Arnold'",
+      "'/apps/IT_TICKET'",
+      "'/db/db_emp'",
+      "only two of these folders"
+    ],
+    "correct": 1,
+    "tips": [
+      "'Click' on View By <Role> button, and 'Click' on the Role 'IT_Admin'. 'Arnold' on Users List shows he has full access to a Resource/s. Scroll down the FileTree to see the '/apps/IT_TICKET' is the only Folder with full access. On the Rules list you can see Rule 19 granted this access.",
+      "'Click' on <X-Axis Expand> button, and 'Click View By <Role> button. Scroll along X-Axis to the 'IT_Admin' Role, and scroll down the FileTree to see the 'apps/IT_TICKET' is the only Folder with full access. 'Click' on this cell to see that Rule 19 granted this access.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Roles>. 'Click' on the 'IT_Admin' Role to display the Users, and then 'Click' on 'Arnold' in the Role circle to display the arrow links to Resources. 'Hover' over the arrows to find that Rule 19 grants full access to '/apps/IT_TICKET'."
+    ]
+  },
+  {
+    "id": 14,
+    "text": "'Adele' wants to 'Create' a tutorial file in the '/emp_info' Sub-Folder under '/db/db_emp'. Does she have permission to do this ",
+    "markdown": "**'Adele'** wants to 'Create' a tutorial File in **'/emp_info'** Sub-Folder under **'/db/db_emp'**. Does she have permission to do this ",
+    "options": ["Yes", "No", "Not sure"],
+    "correct": 1,
+    "tips": [
+      "'Click' on View By <Users> button, and 'Adele'. She has full access to a Resource/s. Scroll down the FileTree to the '/db/db_emp/db_emp' Sub-Folder to see she does not have 'Create' permission here, and the permission is denied by Rule 8. ",
+      "'Click' on View By <Users> button, and scroll to 'Adele' on the X-Axis. Scroll down the FileTree to the '/db/db_emp/db_emp' Sub-Folder to see she does not have 'Create' permission here, and 'Click' on the cell to see the permission is denied by Rule 8. ",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Users>. 'Click' on 'Adele' in the option list to display her Roles. 'Click' on the User name in the circle to display the arrow links to Resources. 'Hover' over the arrows that link to '/db/db_emp/emp_info' to see she is denied 'Create' permission by Rule 8."
+    ]
+  },
+  {
+    "id": 15,
+    "text": "What Role does 'Ronald' have that allows him to 'Get' the econ_course.doc which is in a Sub-Folder under '/sch/bus' ",
+    "markdown": "What Role does **'Ronald'** have that allows him to 'Get' the econ_course.doc which is in a Sub-Folder under **'/sch/bus'** ",
+    "options": ["'Employee'", "'Student'", "'Tutor'", "'Business'"],
+    "correct": 3,
+    "tips": [
+      "'Click' on View By <Users> button, and 'Click' on 'Ronald'. 'Click' on the <black arrow> to expand the '/sch' Folder to see he has 'Get' access to '/sch/bus/econ/econ_course.doc. Rule 7 grants the Role of 'Business the 'Get' permission to /sch/bus and all the Sub-Folders and Files under it (through inheritance).",
+      "'Click' on the <Collapse All> button, and then 'Click' on the <black arrow> to expand the '/sch' Folder. 'Click' on the <X-Axis Expand> button to view Users and Roles and Scroll horizontally to 'Ronald'. 'Click' on a cell that shows green bullet for 'Update'.  Rule 7 grants the 'Business' Role the 'Get' access to '/sch/bus/econ/econ_course.doc'.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Users>. 'Click' on 'Ronald' in the option list to see all of his Roles. 'Click' on each Role to check for arrow links to the 'sch/bus' Folder. 'Hover' the arrow link from 'Business' to the Folder to see Rule 7 granted 'Get' access to this Folder and it's Sub-Folders and Files through inheritance."
+    ]
+  },
+  {
+    "id": 16,
+    "text": "What Rule No. and Role gives 'Edward' the access to 'Update' Files ",
+    "markdown": "What Rule No. gives **'Edward'** the access to 'Update' Files ",
+    "options": [
+      "Rule No. 7 and 'Business' Role",
+      "Rule No. 8 and 'Employee' Role",
+      "Rule No. 17 and 'Coordinator' Role",
+      "There are no Rules that give 'Edward' access to 'Update' Files "
+    ],
+    "correct": 2,
+    "tips": [
+      "'Click' on 'Edward'. The Rules that area applicable to the Roles he has are displayed. Looking at the answer options, only Rule 17 gives the 'Coordinator' Role access to 'Update' the Folder '/apps/CANVAS'",
+      "'Click' on <X-Axis Expand> button, and Scroll to 'Edward'. Scroll downwards to look for permissions that have green bullet for 'Update'. 'Click' into one of these cells to see Rule 17 gives the 'Coordinator' Role access to 'Update' the Folder '/apps/CANVAS'",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Users>. 'Click' on each of the Roles for 'Edward' to display arrow links and 'Hover' over the arrow links to see that Rule 17 gives the 'Coordinator' Role access 'Update' the Folder '/apps/CANVAS'"
+    ]
+  },
+  {
+    "id": 17,
+    "text": "'Gabrielle' has the Role of 'Emp_Advisor' so needs full access to the db/db_hr files, but should Not be able to read files in the /db_pay folder. Have these permissions been set correctly",
+    "markdown": "**'Gabrielle'** has the Role of  ___'Emp_Advisor'___ so needs full access to the **'/db/db_hr'** Files, but should NOT be able to read Files in the **'/db_pay'** Sub-Folder. Have these permissions been set correctly",
+    "options": ["Yes", "No", "Not sure"],
+    "correct": 1,
+    "tips": [
+      "'Click' on 'Emp_Advisor', and expand the  '/db/db_hr' Folder. There is full access to the 'db/db_hr/db_pay' Folder, so the permissions are not set correctly.",
+      "'Click' on View By <Users> button, and 'Click' on <X-Axis Expand> button. Scroll across to 'Gabrielle' and 'Emp_Advisor', and then scroll down to the '/db/db_hr' Folder. There is full access to the 'db/db_hr/db_pay' Folder, so the permissions are not set correctly.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Roles>. 'Click' on 'Emp_Advisor' Role from the option list. 'Click' on 'Gabrielle' in the Role circle to display arrow links. 'Hover' over the arrow links to see there is full access to the 'db/db_hr/db_pay' Folder, so the permissions are not set correctly. "
+    ]
+  },
+  {
+    "id": 18,
+    "text": "What Rule No. would you change to deny the 'Emp_Advisor' Role the access to 'Get' Files from the '/db/db_hr/db_pay' Folder",
+    "markdown": "What Rule No. would you change to deny the ___'Emp_Advisor'___ Role the access to 'Get' Files from the '/db/db_hr/db_pay' Folder",    
+    "options": [
+      "Rule No. 9",
+      "Rule No. 22",
+      "Rule No. 23"
+    ],
+    "correct": 2,
+    "tips": [
+      "'Click' on 'Emp_Advisor', and expand the  '/db/db_hr' Folder. Look at the three Rules that apply to this Role. Rule No. 23 could be changed to explicitly deny this Role 'Get' access to the '/db/db_hr/db_pay' Folder.",
+      "'Click' on View By <Users> button, and 'Click' on <X-Axis Expand> button. Scroll across to the 'Emp_Advisor' Role, and then scroll down to the '/db/db_hr/db_pay' Folder. Rule No. 23 could be changed to explicitly deny this Role 'Get' access to the '/db/db_hr/db_pay' Folder.",
+      "'Click' on <Personnel> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Roles>. 'Click' on 'Emp_Advisor' Role from the option list. 'Click' on the Role circle to display arrow links. 'Hover' over the arrows links to the  '/db/db_hr/db_pay' Folder. Rule No. 23 could be changed to explicitly deny this Role 'Get' access to the '/db/db_hr/db_pay' Folder. "
+    ]
+  },
+  {
+    "id": 19,
+    "text": "How many Users with the Role of 'Employee' have ONLY 'List' and 'Get' access to '/db/db_emp'",
+    "markdown": "How many Users with the Role of ___'Employee'___ have ONLY 'List' and 'Get' access to '/db/db_emp'",
+    "options": [
+      "1 User",
+      "3 Users",
+      "4 Users",
+      "8 or more Users"
+    ],
+    "correct": 3,
+    "tips": [
+      "'Click' on 'Employee' Role, and then 'Click' on Folder '/db/db_emp'. Count how many Users have been granted the permission 'List' and 'Get' only. There are atleast 8 or more.",
+      "'Click' on View By <Role> button, and 'Click' on <X-Axis> button to Collapse to view only Roles. The cells and key changes to display plot for multiple Users. Scroll to the '/db/db_emp Folder. The '8 or more' line on the chart shows the permissions for 'Get' and 'List' only.",
+      "'Click' on <Resources> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Roles>. 'Click' on '/db/db_emp' Folder from the option list. 'Hover' over the green link arrows go to the 'Employee' Role circle to see that atleast '8 or more' only have permissions for 'List' and 'Get'."
+    ]
+  },
+  {
+    "id": 20,
+    "text": "How many Users with the Role of 'Employee' have ONLY 'List' and 'Get' access to '/db/db_emp'",
+    "markdown": "How many Users with the Role of ___'Employee'___ have ONLY 'List' and 'Get' access to '/db/db_emp'",
+    "options": [
+      "1 User",
+      "3 Users",
+      "4 Users",
+      "8 or more Users"
+    ],
+    "correct": 3,
+    "tips": [
+      "'Click' on 'Employee' Role, and then 'Click' on Folder '/db/db_emp'. Count how many Users have been granted the permission 'List' and 'Get' only. There are atleast 8 or more.",
+      "'Click' on View By <Role> button, and 'Click' on <X-Axis> button to Collapse to view only Roles. The cells and key changes to display plot for multiple Users. Scroll to the '/db/db_emp Folder. The '8 or more' line on the chart shows the permissions for 'Get' and 'List' only.",
+      "'Click' on <Resources> and 'Click' the <White X> to clear last selection. 'Click' the Users-Roles switch to <Roles>. 'Click' on '/db/db_emp' Folder from the option list. 'Hover' over the green link arrows go to the 'Employee' Role circle to see that atleast '8 or more' only have permissions for 'List' and 'Get'."
+    ]
+  }
+]

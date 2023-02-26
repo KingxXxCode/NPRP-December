@@ -1,0 +1,114 @@
+[
+  {
+    "id": 0,
+    "text": "Are you ready to start the experiment ",
+    "options": ["yes"],
+    "correct": 0
+  },
+  {
+    "id": 1,
+    "text": "What Role gives 'Zacchariah' permission to 'Update' Files in a Folder called 'lib_serv' ",
+    "options": ["IT_Admin","Lib_Admin","Employee","UG_Student"],
+    "correct": 1
+  },
+  {
+    "id": 2,
+    "text": "What Rule/Rules grant full permissions (L,G,C,U,D) to 'Wilfreds' File called 'diary.doc'",
+    "options": ["Rule 2","Rule 3","Rule 2 and Rule 3","None"],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "text": "What permissions does 'Nancy' have to the Folder '/apps/LIB_SYS' and which of her Roles has the permissions been granted to",
+    "options": ["L,G,C,U,D - Lib_Admin","L,G,C,U - Student","L,G - Employee","L,G - Student"],
+    "correct": 3
+  },   
+  {
+    "id": 4,
+    "text": "Do all the Users who have been granted 'Update' access on the Folder called 'lib_serv' have exactly the same permissions as each other",
+    "options": ["Yes","No","Not Sure"],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "text": "Ralph and Siobhan are visiting the University and have been given the Role of 'Guest'. They both need List and Get access to 'apps/LIB_SYS'. a) Which one of them has been given the right access, and b) What other Role has granted this access",
+    "options": ["'Ralph' and 'Engineering' Role","'Siobhan' and 'Researcher' Role","'Ralph' and 'Employee' Role","'Siobhan' and 'Student' Role"],
+    "correct": 3
+  },
+  {
+    "id": 6,
+    "text": "Kim wants to 'Update' the welcome.mp4 video which is in a Folder under '/db'. What User should she contact who has the required access to the File, and what Role gives them that access",
+    "options": ["'Xavian' with 'Student' Role", "'Gideon' with 'HR_Assistant' Role", "'Yaakov' with 'Stu_Liaison' Role", "'Kirk' with 'Coordinator' Role"],
+    "correct": 2
+  },
+  {
+    "id": 7,
+    "text": "Which Folder would you find 'Quincys' own Folder under, and does he have ALL permissions (L,G,C,U,D) or only SOME granted to all Folders and Files under his own Folder.",
+    "options": ["usr/emp/prof - ALL","usr/stu/msc_stu - ALL","usr/stu/ug_stu - SOME","db/db_stu - SOME"],
+    "correct": 1
+  },   
+  {
+    "id": 8,
+    "text": "Can all Users with 'Employee' Role 'Delete' files from their own named Folder",
+    "options": ["All can", "Some can", "None of them can"],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "text": "Which Users have their own named Folder under '/usr/emp/aca', and what Roles do they both have ",
+    "options": [
+      "'Freddie' and 'Jodie' with 'Lib_Admin' and 'Student' Role",
+      "'Debbie' and 'Barry' with 'Tutor' and 'Employee' Role",
+      "'Gabrielle' and 'Kim' with 'Emp_Advisor' and 'Employee' Role"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "text": "Three Users with 'MSC_Student' Role also have 'Employee' Role. What Rule or Rules grant/deny access to '/apps/BOX'",
+    "options": ["Rule 25 and 21", "Rule 25", "Rule 25 and 33", "Rule 26"],
+    "correct": 2
+  },
+  {
+    "id": 11,
+    "text": "'Gabrielle' should have full access to '/db/db_hr', but NO access to '/db/db_hr/db_pay'. a) What Rule or Rules grant/deny access, b) Has the Rule or Rules been set correctly c) What other User does the Rule effect",
+    "options": ["Rule 23 and 24 - Correct - 'Gideon'", "Rule 19 - Correct - 'Kim'", "Rule 23 and 24 - Incorrect - 'Kim'"],
+    "correct": 0
+  },
+  {
+    "id": 12,
+    "text": "Lawrence is NOT able to 'Update' the 'eng_courses.doc' File on '/apps/CANVAS'. What Role/s should he be added to that would set this permission for him",
+    "options": ["'Student' Role", "'Coordinator' Role", "Both of these","Neither of these"],
+    "correct": 0
+  },
+  {
+    "id": 13,
+    "text": "The 'IT_Admin' Role should have ALL permissions to '/apps/IT_TICKET'. The 'Student' Role should be able to 'Create' and 'Update' on the '/apps/IT_TICKET'. a) Do BOTH Roles have the correct permissions and b) Which Rules set the permissions",
+    "options": ["Correct - Rule 20 and 21", "Incorrect - Rule 20 and 21", "Correct - Rule 19 and 20", "Correct - Rule 16 and 20"],
+    "correct": 2
+  },
+  {
+    "id": 14,
+    "text": "How many 'Users' have ALL permissions to the File eng_modules.xlsx, and what Rule has given this access",
+    "options": ["4-8 Users by Rule 16", "2-4 Users by Rule 17", "4-8 Users by Rule 17", "1 User by Rule 19"],
+    "correct": 2
+  },
+  {
+    "id": 15,
+    "text": "How many 'Roles' have ANY level of permission granted to access the '/db/db_hr' Folder",
+    "options": ["2 Roles", "4 Roles", "6 Roles", "8 Roles"],
+    "correct": 0
+  },
+  {
+    "id": 16,
+    "text": "How many 'Users' and which 'Roles' would be affected if Rule No. 8 granted additional 'Create' permissions",
+    "options": ["8 Users with 'Engineering' Role", "6 Users with 'Student' Role", "8 Users with 'Business' Role", "5 Users with 'MSC_Student' Role"],
+    "correct": 2
+  },
+  {
+    "id": 17,
+    "text": "What is the difference between 'Barry' and 'Adele' access to '/db/db_emp'",
+    "options": ["Granted by Different Roles", "Granted by Different Rule No.s", "Both of these", "Neither of these"],
+    "correct": 2
+  }
+]

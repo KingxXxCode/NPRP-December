@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "text": "Thank you for participating in this study. We are researching different methods of visualising the access Users have to Resources (Folders and Files) within a University setting. The University is organised as shown below. These slides and Guided Tour of the Tool provide key points that will assist you for the training questions and experiment. Some concepts may be introduced, and described in more detail later. You are welcome to ask your Research Assistant questions during this training. Please 'Click' Next to progress.",
+    "image": "Departments",
+    "pagename": "Intro"
+  },
+    {
+      "id": 1,
+      "text": "All Users of the University Resources (Folders and Files) are allocated to Roles. A Role can be a group containing one or many Users. A User can have one or many Roles. Roles are used to define what Folders and Files a User can have access to. ",
+      "image": "UserRoleRel",
+      "pagename":"People"
+    },
+    {
+      "id": 2,
+      "text": "Rules are implemented to grant (allow) or deny Users and Roles different levels of access to Resources. In this experiment, the levels of access are referred to as 'permissions' that a User or Role can have to Folders and Files (Resources). The permissions are : List, Get, Create, Update and Delete, and will be explained in more detail further on. Through interaction with the Tool, you will be able to display these permissions for all Users, Roles, Folders and Files. When you click Next you will be taken to a Guided Tour of the Tool.",
+      "image": "RulesToPerm",
+      "pagename":"Visualisation"
+    },
+    {
+      "id": 3,
+      "text": "A User is anyone in the University who has been authenticated to access Resources (Folders and Files). Users will be granted or denied access to different resources, depending on the Role or Roles allocated to them. Below, you can see Barry is a User with the Role of Tutor and is allowed access to the Exams Folder, whereas, Sally, a Student is denied access to the same folder.",      
+      "image": "Users",
+      "pagename":"Users"
+    },
+    {
+      "id": 4,
+      "text": "The Tool simulates a Role Based Access Control System. A Role defines a group of users to which the same access rules for a resource apply. Role names may relate to a generic group of users, such as 'Student' or 'Employee', or may relate to a job role, such as 'Tutor'. Every User also has their own UserId, which can be used in Rules that apply to Users, rather than Roles. Click Next to be guided through some of the User and Role interactions on the Tool.",      
+      "image": "Roles",
+      "pagename":"Roles"
+    },
+    {
+      "id": 5,
+      "text": "In this experiment, the Resources are stored in a hierarchical File Tree of Folders, Sub-Folders and Files. There are four main Top Level Folders as described below. Folders and Files are identified by their Filepath, eg, /usr/stu and /sr/stu/media.doc. Any permissions set on a Folder will be inherited by the Sub-Folders and Files below. Click Next to be guided through some of the Folder/File interactions on the Tool. ",
+      "image": "FileTree",
+      "pagename": "FileSystem"
+    },
+    {
+      "id": 6,
+      "text": "In this experiment, there are five Action Types that Users or Roles can perform on a folder or file: List, Get, Create, Update and Delete. List allows the User to see if a Folder or File exists. Get allows the User to see the contents of a Folder and Read the Files within. Create, Update and Delete actions allow a user to write to a Folder or File as the actions describe. The permissions displayed on the tool correspond to these five Action Types as shown below. The Tutor Role has a Rule applied to allow/deny the actions on the Exam Folder, which the Tool then displays as Permissions. Click Next to see more on the Guided Tour.",
+      "image": "Permissions",
+      "pagename":"Permissions"
+    },
+    {
+      "id": 7,
+      "text": "A Rule defines the level of access that a User/Role has to a Folder or File. There are many Rules required due to the number of Roles and Resources in the system. Rules are in a list which is processed in order, so a later Rule can override the settings of an earlier one. In the example below, the final permissions granted for the Student Role to /usr/stu will be from Rule 2. Click Next to see how to use the Tool to display the Rules.",
+      "image": "Rules",
+      "pagename": "Rules"
+    },
+    {
+      "id": 8,
+      "text": "Take a few minutes now to familiarise yourself with the Scenario Data and Tool interactions. You can move onto some Training Scenario with the button above, in which you will be asked questions and provided with Training Tips. You are welcome to ask questions during the training scenario. You will be checking that Users and Roles have the right permissions to access what they need in the file system, and also look for any inconsistencies and conflicts. You can then move onto the experiment for which no assistance will be provided. Select Finish to go to the Tool. ",
+      "image": " ",
+      "pagename":"Instructions"
+    }
+]
